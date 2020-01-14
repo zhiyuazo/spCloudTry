@@ -1,0 +1,12 @@
+/target/
+/.settings/
+/.git/
+.classpath
+.project
+.metadata
+
+*/target/
+*/.settings/
+*/.git/
+*/.classpath
+*/.project
