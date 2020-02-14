@@ -47,5 +47,7 @@
     <modules>
     	<module>eureka-server</module>
     	<module>product-data-service</module>
+    	<module>eureka-server1</module>
+    	<module>product-ribbon-service</module>
     </modules>
 </project>
