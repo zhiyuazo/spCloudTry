@@ -15,5 +15,11 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>     
+   <!-- 添加zipkin链路追踪服务 --> 
+	<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-zipkin</artifactId>
+	</dependency>     
+	
 </dependencies>
 </project>

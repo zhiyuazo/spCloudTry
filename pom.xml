@@ -49,5 +49,6 @@
     	<module>product-data-service</module>
     	<module>eureka-server1</module>
     	<module>product-ribbon-service</module>
+    	<module>product-feign-service</module>
     </modules>
 </project>
