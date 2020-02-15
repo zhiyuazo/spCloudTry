@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: product-zuul-service
+zuul:
+  routes:
+    api-a:
+      path: /api-data/**
+      serviceId: PRODUCT-DATA-SERVICE
+    api-b:
+      path: /api-view/**
+      serviceId: PRODUCT-FEIGN-SERVICE
